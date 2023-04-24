@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://fonts.googleapis.com/css?family=Cookie' rel='stylesheet'>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/libraries/bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
+    <title>cart</title>
+</head>
+
+<body>
+    <!-- navbar contain -->
+    <nav class=" navbar navbar-expand-md navbar-light bg-light fixed-top">
+        <div class="container-fluid ">
+            <div class=" col-4">
+                <img src="/Web UI - 1 Ref IMG/Web UI - 1 Ref IMG/img/logo.png" style="width: 100px; height: auto;"
+                    alt="" srcset="">
+            </div>
+            <button class="navbar-toggler d-lg-none " type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="naviteam" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="naviteam" href="shop.html">Shope</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="naviteam" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="d-flex justify-content-between px-3">
+                <span class="text-mute px-sm-3">Login / Registration</span>
+                <h4 class="p-0"> <i class="fa-solid fa-magnifying-glass px-1">
+                    </i>
+                    <i class="fa-regular fa-heart px-md-2 px-1">
+                        <h5 class="bold">2</h5>
+                    </i>
+                    <i class="fa-regular fa-clipboard px-md-2 px-1">
+                        <h5 class="bold">2</h5>
+                    </i>
+                </h4>
+            </div>
+        </div>
+    </nav>
+    <!-- ...............................closed nav............................ -->
+    <!-- ................bread crumb................ -->
+    <div class="mt-5 pt-5" style="width: 85%; margin-left: auto; margin-right: auto;">
+        <nav class="breadcrumb">
+            <a style="text-decoration: none;" class="breadcrumb-item text-dark" href="index.html"><i class= "m-1 fa-solid fa-house-chimney"></i>Home</a>
+            <a style="text-decoration: none;" class="breadcrumb-item text-dark" href="product.html">Product</a>
+            <a style="text-decoration: none;" class="breadcrumb-item text-dark active" href="addcart.html"><i class="m-1 fa-solid fa-cart-plus"></i>Add cart</a>
+        </nav>
+    </div>
+    <!-- .................closed bread crumb........... -->
+    <!-- .......................table content..................... -->
+    <div class="container  mt-5" style="width: 85%; margin-left: auto; margin-right: auto;">
+        <div class="table-responsive py-4">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th colspan="6" scope="col">PRODUCT</th>
+                        <th colspan="2" scope="col">PRICE</th>
+                        <th colspan="2" class="text-center" scope="col">QUANTITY</th>
+                        <th colspan="1" scope="col">TOTAL</th>
+                        <th colspan="1" scope="col"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="">
+                        <td colspan="6" scope="col">
+                            <div class="card py-2 border border-0 rounded-0">
+                                <div class="row g-0">
+                                    <div class="col-sm-2">
+                                        <img src="/Web UI - 1 Ref IMG/Web UI - 1 Ref IMG/img/shop-cart/cp-1.jpg"
+                                            class="img-fluid w-100 d-block" alt="...">
+                                    </div>
+                                    <div class="col-sm-10">
+                                        <div class="card-body py-2">
+                                            <p class="card-text m-0"><b>Chain bucket bag</b></p>
+                                            <div class="d-flex justify-content-start">
+                                                <h6 class="m-0" style="font-size: x-small;"><i class="fa-solid fa-star"
+                                                        style=" color: rgb(209, 209, 54);"></i></h6>
+                                                <h6 class="m-0" style="font-size: x-small;"><i class="fa-solid fa-star"
+                                                        style=" color: rgb(209, 209, 54);"></i></h6>
+                                                <h6 class="m-0" style="font-size: x-small;"><i class="fa-solid fa-star"
+                                                        style=" color: rgb(209, 209, 54);"></i></h6>
+                                                <h6 class="m-0" style="font-size: x-small;"><i class="fa-solid fa-star"
+                                                        style=" color: rgb(209, 209, 54);"></i></h6>
+                                                <h6 class="m-0" style="font-size: x-small;"><i class="fa-solid fa-star"
+                                                        style=" color: rgb(209, 209, 54);"></i></h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                        <td colspan="2">
+                            <p class="text-danger py-3"><b>$150.0</b></p>
+                        </td>
+                        <td colspan="2">
+                            <div class="p-2 w-100 justify-content-center d-flex border border-0"
+                                style="width: fit-content;">
+                                <button class="btn  mx-3">-</button>
+                                <b>2</b>
+                                <button class="btn mx-3">+</button>
+                            </div>
+                        </td>
+                        <td colspan="1">
+                            <p class="text-danger py-3"><b>$300.0</b></p>
+                        </td>
+                        <td colspan="1">
+                            <div class="rounded-5 my-3 p-1"
+                                style="background-color: rgba(200, 200, 174, 0.332); width: fit-content;">
+                                <button type="button" class="btn-close" aria-label="Close"></button>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="">
+                        <td colspan="6" scope="col">
+                            <div class="card py-2 border border-0 rounded-0">
+                                <div class="row g-0">
+                                    <div class="col-sm-2">
+                                        <img src="/Web UI - 1 Ref IMG/Web UI - 1 Ref IMG/img/shop-cart/cp-2.jpg"
+                                            class="img-fluid w-100 d-block" alt="...">
+                                    </div>
+                                    <div class="col-sm-10">
+                                        <div class="card-body py-2">
+                                            <p class="card-text m-0"><b>Zip-pockets pebbled tote briefcase</b></p>
+                                            <div class="d-flex justify-content-start">
+                                                <h6 class="m-0" style="font-size: x-small;"><i class="fa-solid fa-star"
+                                                        style=" color: rgb(209, 209, 54);"></i></h6>
+                                                <h6 class="m-0" style="font-size: x-small;"><i class="fa-solid fa-star"
+                                                        style=" color: rgb(209, 209, 54);"></i></h6>
+                                                <h6 class="m-0" style="font-size: x-small;"><i class="fa-solid fa-star"
+                                                        style=" color: rgb(209, 209, 54);"></i></h6>
+                                                <h6 class="m-0" style="font-size: x-small;"><i class="fa-solid fa-star"
+                                                        style=" color: rgb(209, 209, 54);"></i></h6>
+                                                <h6 class="m-0" style="font-size: x-small;"><i class="fa-solid fa-star"
+                                                        style=" color: rgb(209, 209, 54);"></i></h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                        <td colspan="2">
+                            <p class="text-danger py-3"><b>$170.0</b></p>
+                        </td>
+                        <td colspan="2">
+                            <div class="p-2 w-100 justify-content-center d-flex border border-0"
+                                style="width: fit-content;">
+                                <button class="btn  mx-3">-</button>
+                                <b>1</b>
+                                <button class="btn mx-3">+</button>
+                            </div>
+                        </td>
+                        <td colspan="1">
+                            <p class="text-danger py-3"><b>$170.0</b></p>
+                        </td>
+                        <td colspan="1">
+                            <div class="rounded-5 my-3 p-1"
+                                style="background-color: rgba(200, 200, 174, 0.332); width: fit-content;">
+                                <button type="button" class="btn-close" aria-label="Close"></button>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="">
+                        <td colspan="6" scope="col">
+                            <div class="card py-2 border border-0 rounded-0">
+                                <div class="row g-0">
+                                    <div class="col-sm-2">
+                                        <img src="/Web UI - 1 Ref IMG/Web UI - 1 Ref IMG/img/shop-cart/cp-3.jpg"
+                                            class="img-fluid w-100 d-block" alt="...">
+                                    </div>
+                                    <div class="col-sm-10">
+                                        <div class="card-body py-2">
+                                            <p class="card-text m-0"><b>Black Jeans</b></p>
+                                            <div class="d-flex justify-content-start">
+                                                <h6 class="m-0" style="font-size: x-small;"><i class="fa-solid fa-star"
+                                                        style=" color: rgb(209, 209, 54);"></i></h6>
+                                                <h6 class="m-0" style="font-size: x-small;"><i class="fa-solid fa-star"
+                                                        style=" color: rgb(209, 209, 54);"></i></h6>
+                                                <h6 class="m-0" style="font-size: x-small;"><i class="fa-solid fa-star"
+                                                        style=" color: rgb(209, 209, 54);"></i></h6>
+                                                <h6 class="m-0" style="font-size: x-small;"><i class="fa-solid fa-star"
+                                                        style=" color: rgb(209, 209, 54);"></i></h6>
+                                                <h6 class="m-0" style="font-size: x-small;"><i class="fa-solid fa-star"
+                                                        style=" color: rgb(209, 209, 54);"></i></h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                        <td colspan="2">
+                            <p class="text-danger py-3"><b>$85.0</b></p>
+                        </td>
+                        <td colspan="2">
+                            <div class="p-2 w-100 justify-content-center d-flex border border-0"
+                                style="width: fit-content;">
+                                <button class="btn  mx-3">-</button>
+                                <b>1</b>
+                                <button class="btn mx-3">+</button>
+                            </div>
+                        </td>
+                        <td colspan="1">
+                            <p class="text-danger py-3"><b>$170.0</b></p>
+                        </td>
+                        <td colspan="1">
+                            <div class="rounded-5 my-3 p-1"
+                                style="background-color: rgba(200, 200, 174, 0.332); width: fit-content;">
+                                <button type="button" class="btn-close" aria-label="Close"></button>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="">
+                        <td colspan="6" scope="col">
+                            <div class="card py-2 border border-0 rounded-0">
+                                <div class="row g-0">
+                                    <div class="col-sm-2">
+                                        <img src="/Web UI - 1 Ref IMG/Web UI - 1 Ref IMG/img/shop-cart/cp-4.jpg"
+                                            class="img-fluid w-100 d-block" alt="...">
+                                    </div>
+                                    <div class="col-sm-10">
+                                        <div class="card-body py-2">
+                                            <p class="card-text m-0"><b>Cotton shirt</b></p>
+                                            <div class="d-flex justify-content-start">
+                                                <h6 class="m-0" style="font-size: x-small;"><i class="fa-solid fa-star"
+                                                        style=" color: rgb(209, 209, 54);"></i></h6>
+                                                <h6 class="m-0" style="font-size: x-small;"><i class="fa-solid fa-star"
+                                                        style=" color: rgb(209, 209, 54);"></i></h6>
+                                                <h6 class="m-0" style="font-size: x-small;"><i class="fa-solid fa-star"
+                                                        style=" color: rgb(209, 209, 54);"></i></h6>
+                                                <h6 class="m-0" style="font-size: x-small;"><i class="fa-solid fa-star"
+                                                        style=" color: rgb(209, 209, 54);"></i></h6>
+                                                <h6 class="m-0" style="font-size: x-small;"><i class="fa-solid fa-star"
+                                                        style=" color: rgb(209, 209, 54);"></i></h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                        <td colspan="2">
+                            <p class="text-danger py-3"><b>$55.0</b></p>
+                        </td>
+                        <td colspan="2">
+                            <div class="p-2 w-100 justify-content-center d-flex border border-0"
+                                style="width: fit-content;">
+                                <button class="btn  mx-3">-</button>
+                                <b>1</b>
+                                <button class="btn mx-3">+</button>
+                            </div>
+                        </td>
+                        <td colspan="1">
+                            <p class="text-danger py-3"><b>$110.0</b></p>
+                        </td>
+                        <td colspan="1">
+                            <div class="rounded-5 my-3 p-1"
+                                style="background-color: rgba(200, 200, 174, 0.332); width: fit-content;">
+                                <button type="button" class="btn-close" aria-label="Close"></button>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="d-flex justify-content-between">
+            <button class="btn-lg btn btn-light"><small><b>CONTINUE SHOPPING</b></small></button>
+            <button class="btn-lg btn btn-light"><span class="spinner-grow"></span><small><b>UPDATE CART
+                    </b></small></button>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="d-flex justify-content-between">
+                    <div class="py-3 mt-5">
+                        <b>DISCOUNT CODES</b><br>
+                        <div class="rounded-5 border border-1 border-dark">
+                            <span class="" style="padding: 2px 0 2px 1rem;">Enter your coupon code <button
+                                    class="btn-danger btn rounded-5 m-1"><small
+                                        style="font-weight: 600; letter-spacing: 2px;">APPLY</small></button></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="d-flex justify-content-end">
+                    <div class=" bg-light p-5 mt-5">
+                        <h6 class="text-muted"><b>CART TOTAL</b></h6>
+                        <div class="d-flex py-2 justify-content-between">
+                            <span>Subtotal</span>
+                            <span class="text-danger">$ 750.0</span>
+                        </div>
+                        <div class="d-flex py-2 justify-content-between">
+                            <span>Total</span>
+                            <span class="text-danger">$ 750.0</span>
+                        </div>
+                        <button class="btn btn-danger rounded-5 text-center px-5"><a href="checkout.html" style="text-decoration: none; color: #fff;"><b><small>PROCEED TO
+                            CHECKOUT</small></b></a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--........................ closed table contant................... -->
+
+    <!-- .............insta gallery............... -->
+    <div class="container-fluid my-5 p-0">
+        <div class="row g-0 m-0 p-0">
+            <div class="col-lg-2 col-md-4 col-6 action1" style="position: relative;">
+                <img src="/Web UI - 1 Ref IMG/Web UI - 1 Ref IMG/img/instagram/insta-1.jpg" class="w-100"
+                    alt="insta-gallory" srcset="">
+                <div class="design1 position-absolute flex-column justify-content-center"
+                    style="background-color: white; padding: 10% 0 10% 0; top: 1px; height: 100%; width: 100%; display: none; opacity: .8;">
+                    <h2 class="p-3 text-center"><i class="fa-brands fa-square-instagram"></i></h2>
+                    <a href="" style="text-align: center; text-decoration: none; "><b>insta_gallery</b></a>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-6 action2" style="position: relative;">
+                <img src="/Web UI - 1 Ref IMG/Web UI - 1 Ref IMG/img/instagram/insta-2.jpg" class="w-100"
+                    alt="insta-gallory" srcset="">
+                <div class="design2 position-absolute flex-column justify-content-center"
+                    style="background-color: white; padding: 10% 0 10% 0; top: 1px; height: 100%; width: 100%; display: none; opacity: .8;">
+                    <h2 class="p-3 text-center"><i class="fa-brands fa-square-instagram"></i></h2>
+                    <a href="" style="text-align: center; text-decoration: none; "><b>insta_gallery</b></a>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-6 action3" style="position: relative;">
+                <img src="/Web UI - 1 Ref IMG/Web UI - 1 Ref IMG/img/instagram/insta-3.jpg" class="w-100"
+                    alt="insta-gallory" srcset="">
+                <div class="design3 position-absolute flex-column justify-content-center"
+                    style="background-color: white; padding: 10% 0 10% 0; top: 1px; height: 100%; width: 100%; display: none; opacity: .8;">
+                    <h2 class="p-3 text-center"><i class="fa-brands fa-square-instagram"></i></h2>
+                    <a href="" style="text-align: center; text-decoration: none; "><b>insta_gallery</b></a>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-6 action4" style="position: relative;">
+                <img src="/Web UI - 1 Ref IMG/Web UI - 1 Ref IMG/img/instagram/insta-4.jpg" class="w-100"
+                    alt="insta-gallory" srcset="">
+                <div class="design4 position-absolute flex-column justify-content-center"
+                    style="background-color: white; padding: 10% 0 10% 0; top: 1px; height: 100%; width: 100%; display: none; opacity: .8;">
+                    <h2 class="p-3 text-center"><i class="fa-brands fa-square-instagram"></i></h2>
+                    <a href="" style="text-align: center; text-decoration: none; "><b>insta_gallery</b></a>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-6 action5" style="position: relative;">
+                <img src="/Web UI - 1 Ref IMG/Web UI - 1 Ref IMG/img/instagram/insta-5.jpg" class="w-100"
+                    alt="insta-gallory" srcset="">
+                <div class="design5 position-absolute flex-column justify-content-center"
+                    style="background-color: white; padding: 10% 0 10% 0; top: 1px; height: 100%; width: 100%; display: none; opacity: .8;">
+                    <h2 class="p-3 text-center"><i class="fa-brands fa-square-instagram"></i></h2>
+                    <a href="" style="text-align: center; text-decoration: none; "><b>insta_gallery</b></a>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-6 action6" style="position: relative;">
+                <img src="/Web UI - 1 Ref IMG/Web UI - 1 Ref IMG/img/instagram/insta-6.jpg" class="w-100"
+                    alt="insta-gallory" srcset="">
+                <div class="design6 position-absolute flex-column justify-content-center"
+                    style="background-color: white; padding: 10% 0 10% 0; top: 1px; height: 100%; width: 100%; display: none; opacity: .8;">
+                    <h2 class="p-3 text-center"><i class="fa-brands fa-square-instagram"></i></h2>
+                    <a href="" style="text-align: center; text-decoration: none; "><b>insta_gallery</b></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--...........closed insta gallery.............  -->
+    <!-- ...............footer.................-->
+    <div class="container mt-5" style="width: 85%; margin-left: auto; margin-right: auto;">
+        <div class="row m-0 pb-5 g-0" style="border-bottom: 1px solid gray;">
+            <div class="col-sm-4">
+                <h1 class="m-0" style="font-family: 'Cookie';font-weight: 800; font-size: 300%;">Ashion</h1>
+                <p class="m-0 p-1 text-muted text-start">Lorem ipsum, dolor sit amet consectetur adipisicing elit. sed
+                    do eiusmod tempor incididunt cilisis.</p>
+                <div class="d-flex py-2">
+                    <img class="mx-1" src="/Web UI - 1 Ref IMG/Web UI - 1 Ref IMG/img/payment/payment-1.png" alt="">
+                    <img class="mx-1" src="/Web UI - 1 Ref IMG/Web UI - 1 Ref IMG/img/payment/payment-2.png" alt="">
+                    <img class="mx-1" src="/Web UI - 1 Ref IMG/Web UI - 1 Ref IMG/img/payment/payment-3.png" alt="">
+                    <img class="mx-1" src="/Web UI - 1 Ref IMG/Web UI - 1 Ref IMG/img/payment/payment-4.png" alt="">
+                    <img class="mx-1" src="/Web UI - 1 Ref IMG/Web UI - 1 Ref IMG/img/payment/payment-5.png" alt="">
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="row">
+                    <div class="col-6 py-3">
+                        <h6>QUICK LINKS</h6>
+                        <ul style="list-style: none;" class="p-0">
+                            <li><a class="text-secondary" style="text-decoration: none;" href="">About</a></li>
+                            <li><a class="text-secondary" style="text-decoration: none;" href="">Blog</a></li>
+                            <li><a class="text-secondary" style="text-decoration: none;" href="">Contact</a></li>
+                            <li><a class="text-secondary" style="text-decoration: none;" href="">FAQ</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 py-3">
+                        <h6>ACCOUNT</h6>
+                        <ul style="list-style: none;" class="p-0">
+                            <li><a class="text-secondary" style="text-decoration: none;" href="">My Account</a></li>
+                            <li><a class="text-secondary" style="text-decoration: none;" href="">Orders Tracking</a>
+                            </li>
+                            <li><a class="text-secondary" style="text-decoration: none;" href="">Checkout</a></li>
+                            <li><a class="text-secondary" style="text-decoration: none;" href="">Wishlist</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="py-3">
+                    <h6>NEWSLETTER</h6>
+                    <div class="input-group py-3">
+                        <input type="email" class="form-control px-4 py-3 rounded-5" style="position: relative;"
+                            placeholder="Email">
+                        <button class="btn btn-danger rounded-5"
+                            style="position: absolute; left: 49%; width: 50%; padding: 11px 4px 11px 4px; top: 24%;"
+                            type="button" id="button-addon2">SUBSCRIBE</button>
+                    </div>
+                    <div class="d-flex">
+                        <div class="m-2" id="social"><i class="fa-brands fa-facebook"></i></div>
+                        <div class="m-2" id="social"><i class="fa-brands fa-twitter"></i></div>
+                        <div class="m-2" id="social"><i class="fa-brands fa-youtube"></i></div>
+                        <div class="m-2" id="social"><i class="fa-brands fa-instagram"></i></div>
+                        <div class="m-2" id="social"><i class="fa-brands fa-pinterest"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="p-3">
+            <p class="text-center text-mutedx">Copyrigth @ 2023 All rights reserved | This is made with <i
+                    class="fa-sharp fa-solid fa-heart"></i> by Colorlib</p>
+        </div>
+    </div>
+    <!-- .............closed footer............. -->
+    <script src="/libraries/bootstrap-5.3.0-alpha1-dist/js/bootstrap.min.js"></script>
+    <script src="/js/script.js"></script>
+    <script src="/libraries/jquerye/jquery-3.6.3.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,49 @@
+#naviteam{
+    font-weight: 500;
+}
+.nav-item:hover{
+    border-bottom: 2px solid red;
+    transition: ease-in-out 0.5s;
+}
+.bold{
+    font-size: 12px;
+    height: 18px;
+    width: 18px;
+    text-align: center;
+    margin-top: -30px;
+    margin-left: 15px;
+    background-color: rgba(0, 0, 0, 0.813);
+    color: white;
+    padding: 4px;
+    position: absolute;
+    border-radius: 50px;
+}
+.social{
+    background-color: transparent;
+    border: 1px solid gray;
+    margin: 2px;
+    width: 50px; height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.option9,.option10,.option11,.option12{
+    display: none;
+    position: absolute;
+    top: 70%;
+    left: 20%;  
+}
+.icons{
+    padding-top: 12px;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 2px;
+    text-align: center;
+}
+.icons:hover{
+    background-color: red;
+    color: white;
+}

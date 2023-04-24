@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://fonts.googleapis.com/css?family=Cookie' rel='stylesheet'>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/libraries/bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
+    <title>Checkout</title>
+</head>
+
+<body>
+    <!-- navbar contain -->
+    <nav class=" navbar navbar-expand-md navbar-light bg-light fixed-top">
+        <div class="container-fluid ">
+            <div class=" col-4">
+                <img src="/Web UI - 1 Ref IMG/Web UI - 1 Ref IMG/img/logo.png"
+                    style="width: 100px; height: auto;" alt="" srcset="">
+            </div>
+            <button class="navbar-toggler d-lg-none " type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" id="naviteam" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " id="naviteam " href="shop.html">Shope</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="naviteam" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="d-flex justify-content-between px-3">
+                <span class="text-mute px-sm-3">Login / Registration</span>
+                <h4 class="p-0"> <i class="fa-solid fa-magnifying-glass px-1">
+                    </i>
+                    <i class="fa-regular fa-heart px-md-2 px-1">
+                        <h5 class="bold">2</h5>
+                    </i>
+                    <i class="fa-regular fa-clipboard px-md-2 px-1">
+                        <h5 class="bold">2</h5>
+                    </i>
+                </h4>
+            </div>
+        </div>
+    </nav>
+    <!-- ....................................closed nav................................ -->
+        <!-- ...............................closed nav............................ -->
+        <div class="mt-5 pt-5" style="width: 85%; margin-left: auto; margin-right: auto;">
+            <nav class="breadcrumb">
+                <a style="text-decoration: none;" class="breadcrumb-item text-dark" href="index.html"><i class= "m-1 fa-solid fa-house-chimney"></i>Home</a>
+                <a style="text-decoration: none;" class="breadcrumb-item text-dark" href="product.html">Product</a>
+                <a style="text-decoration: none;" class="breadcrumb-item text-dark" href="addcart.html"><i class="m-1 fa-solid fa-cart-plus"></i>Add cart</a>
+                <a style="text-decoration: none;" class="breadcrumb-item text-dark active" href="checkout.html"><i class="m-1 fa-solid fa-check-to-slot"></i>Checkout</a>
+            </nav>
+        </div>
+        <!-- .................closed bread crumb........... -->
+    <!--............. checkout content........ -->
+    <div class="mt-3 py-2" style="width: 85%; margin-left: auto; margin-right: auto;">
+        <div class="p-2 text-muted text-center"
+            style="border-top: 2px solid red; background-color: rgba(255, 0, 0, 0.0365);">
+            <small><span class="text-danger"><i class="fa-solid fa-tag"></i></span></i>Have a coupon? Click here to
+                enter your code </small>
+        </div>
+        <div class="row py-5">
+            <div class="col-sm-8">
+                <h5 style="border-bottom: 1px solid gray;padding: 8px;">BILLING DETAIL</h5>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="my-3">
+                            <span class="text-muted"> First Name</span><span class="text-danger">*</span>
+                            <input type="text" class="form-control" name="" id="" aria-describedby="helpId"
+                                placeholder="">
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="my-3">
+                            <span class="text-muted"> Last Name</span><span class="text-danger">*</span>
+                            <input type="text" class="form-control" name="" id="" aria-describedby="helpId"
+                                placeholder="">
+                        </div>
+                    </div>
+                </div>
+                <div class="my-3">
+                    <span class="text-muted"> Country </span><span class="text-danger">*</span>
+                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                </div>
+                <div class="my-3">
+                    <span class="text-muted"> Address</span><span class="text-danger">*</span>
+                    <input type="text" class="form-control mb-3" name="" id="" aria-describedby="helpId"
+                        placeholder="Street Address">
+                    <input type="text" class="form-control mb-3" name="" id="" aria-describedby="helpId"
+                        placeholder="Apartment, suite, unite ect (optoinal)">
+                </div>
+                <div class="my-3">
+                    <span class="text-muted"> Town/City </span><span class="text-danger">*</span>
+                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                </div>
+                <div class="my-3">
+                    <span class="text-muted"> Country/State </span><span class="text-danger">*</span>
+                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                </div>
+                <div class="my-3">
+                    <span class="text-muted"> Postcode/Zip </span><span class="text-danger">*</span>
+                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="my-3">
+                            <span class="text-muted"> Phone</span><span class="text-danger">*</span>
+                            <input type="number" class="form-control" name="" id="" aria-describedby="helpId"
+                                placeholder="">
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="my-3">
+                            <span class="text-muted"> Email</span><span class="text-danger">*</span>
+                            <input type="email" class="form-control" name="" id="" aria-describedby="helpId"
+                                placeholder="">
+                        </div>
+                    </div>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" style="border: 1px solid black;" type="checkbox" value="" id="">
+                    <label class="form-check-label" for="">
+                        Create an acount?
+                    </label>
+                </div>
+                <p class="text-muted" style="text-align: justify;">Create am acount by entering the information
+                    below. if you are a returning custome login at the top of the page.</p>
+                <div class="my-3">
+                    <span class="text-muted"> Account Password </span><span class="text-danger">*</span>
+                    <input type="password" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" style="border: 1px solid black;" type="checkbox" value="" id="">
+                    <label class="form-check-label" for="">
+                        Note about your order,e.g, specialnoe fro delivery.
+                    </label>
+                </div>
+                <div class="my-3">
+                    <span class="text-muted"> Order notes </span><span class="text-danger">*</span>
+                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId"
+                        placeholder="  Note about your order,e.g, specialnoe fro delivery.">
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="p-3" style="background-color: rgba(255, 0, 0, 0.0365);">
+                    <div class="" style="border-bottom: 1px solid gray;">
+                        <h5 class="pb-3" style="border-bottom: 1px solid black;">YOUR ORDER</h5>
+                        <div class="mb-3 d-flex justify-content-between">
+                            <span style="text-align: start;"><b>Product</b></span>
+                            <span style="text-align: end;"><b>Total</b></span>
+                        </div>
+                        <div class="mb-3 d-flex justify-content-between">
+                            <span style="text-align: start;" class="text-muted">01. Chain buck bag</span>
+                            <span style="text-align: end;"><b>$300.0</b></span>
+                        </div>
+                        <div class="mb-3 d-flex justify-content-between">
+                            <span style="text-align: start;" class="text-muted">02. Zip-pockets pebbled tote
+                                briefcase</span>
+                            <span style="text-align: end;"><b>$170.0</b></span>
+                        </div>
+                        <div class="mb-3 d-flex justify-content-between">
+                            <span style="text-align: start;" class="text-muted">03. Black jean</span>
+                            <span style="text-align: end;"><b>$170.0</b></span>
+                        </div>
+                        <div class="mb-3 d-flex justify-content-between">
+                            <span style="text-align: start;" class="text-muted">04. Cotton shirt</span>
+                            <span style="text-align: end;"><b>$110.0</b></span>
+                        </div>
+                    </div>
+                    <div class="py-2" style="border-bottom: 1px solid gray;">
+                        <div class="mb-3 d-flex justify-content-between">
+                            <span style="text-align: start;"><b>Subtotal</b></span>
+                            <span class="text-danger" style="text-align: end;"><b>$750.0</b></span>
+                        </div>
+                        <div class="mb-3 d-flex justify-content-between">
+                            <span style="text-align: start;"><b>Total</b></span>
+                            <span class="text-danger" style="text-align: end;"><b>$750.0</b></span>
+                        </div>
+                    </div>
+                    <div class="py-3">
+                        <div class="form-check mb-3">
+                            <input class="form-check-input" type="checkbox" value="" id="">
+                            <label class="form-check-label" for="">
+                                <b style="font-weight: 500;"> <small>Create an acount?</small></b>
+                            </label>
+                        </div>
+                        <p class="text-muted">Create am acount by entering the information
+                            below. if you are a returning custome login at the top of the page.</p>
+                        <div class="form-check mb-3">
+                            <input class="form-check-input" type="checkbox" value="" id="">
+                            <label class="form-check-label" for="">
+                                <b style="font-weight: 500;"> <small> Cheque payment</small></b>
+                            </label>
+                        </div>
+                        <div class="form-check mb-3">
+                            <input class="form-check-input" type="checkbox" value="" id="">
+                            <label class="form-check-label" for="">
+                                <b style="font-weight: 500;"> <small>PayPal</small></b>
+                            </label>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <button class="btn btn-danger rounded-5 text-center px-5" onclick="comp()"><b><small>
+                                PLACE ORDER</small></b></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ............closed checkout......... -->
+    <!-- .............insta gallery............... -->
+    <div class="container-fluid my-5 p-0">
+        <div class="row g-0 m-0 p-0">
+            <div class="col-lg-2 col-md-4 col-6 action1" style="position: relative;">
+                <img src="/Web UI - 1 Ref IMG/Web UI - 1 Ref IMG/img/instagram/insta-1.jpg"
+                    class="w-100" alt="insta-gallory" srcset="">
+                <div class="design1 position-absolute flex-column justify-content-center"
+                    style="background-color: white; padding: 10% 0 10% 0; top: 1px; height: 100%; width: 100%; display: none; opacity: .8;">
+                    <h2 class="p-3 text-center"><i class="fa-brands fa-square-instagram"></i></h2>
+                    <a href="" style="text-align: center; text-decoration: none; "><b>insta_gallery</b></a>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-6 action2" style="position: relative;">
+                <img src="/Web UI - 1 Ref IMG/Web UI - 1 Ref IMG/img/instagram/insta-2.jpg"
+                    class="w-100" alt="insta-gallory" srcset="">
+                <div class="design2 position-absolute flex-column justify-content-center"
+                    style="background-color: white; padding: 10% 0 10% 0; top: 1px; height: 100%; width: 100%; display: none; opacity: .8;">
+                    <h2 class="p-3 text-center"><i class="fa-brands fa-square-instagram"></i></h2>
+                    <a href="" style="text-align: center; text-decoration: none; "><b>insta_gallery</b></a>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-6 action3" style="position: relative;">
+                <img src="/Web UI - 1 Ref IMG/Web UI - 1 Ref IMG/img/instagram/insta-3.jpg"
+                    class="w-100" alt="insta-gallory" srcset="">
+                <div class="design3 position-absolute flex-column justify-content-center"
+                    style="background-color: white; padding: 10% 0 10% 0; top: 1px; height: 100%; width: 100%; display: none; opacity: .8;">
+                    <h2 class="p-3 text-center"><i class="fa-brands fa-square-instagram"></i></h2>
+                    <a href="" style="text-align: center; text-decoration: none; "><b>insta_gallery</b></a>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-6 action4" style="position: relative;">
+                <img src="/Web UI - 1 Ref IMG/Web UI - 1 Ref IMG/img/instagram/insta-4.jpg"
+                    class="w-100" alt="insta-gallory" srcset="">
+                <div class="design4 position-absolute flex-column justify-content-center"
+                    style="background-color: white; padding: 10% 0 10% 0; top: 1px; height: 100%; width: 100%; display: none; opacity: .8;">
+                    <h2 class="p-3 text-center"><i class="fa-brands fa-square-instagram"></i></h2>
+                    <a href="" style="text-align: center; text-decoration: none; "><b>insta_gallery</b></a>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-6 action5" style="position: relative;">
+                <img src="/Web UI - 1 Ref IMG/Web UI - 1 Ref IMG/img/instagram/insta-5.jpg"
+                    class="w-100" alt="insta-gallory" srcset="">
+                <div class="design5 position-absolute flex-column justify-content-center"
+                    style="background-color: white; padding: 10% 0 10% 0; top: 1px; height: 100%; width: 100%; display: none; opacity: .8;">
+                    <h2 class="p-3 text-center"><i class="fa-brands fa-square-instagram"></i></h2>
+                    <a href="" style="text-align: center; text-decoration: none; "><b>insta_gallery</b></a>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-6 action6" style="position: relative;">
+                <img src="/Web UI - 1 Ref IMG/Web UI - 1 Ref IMG/img/instagram/insta-6.jpg"
+                    class="w-100" alt="insta-gallory" srcset="">
+                <div class="design6 position-absolute flex-column justify-content-center"
+                    style="background-color: white; padding: 10% 0 10% 0; top: 1px; height: 100%; width: 100%; display: none; opacity: .8;">
+                    <h2 class="p-3 text-center"><i class="fa-brands fa-square-instagram"></i></h2>
+                    <a href="" style="text-align: center; text-decoration: none; "><b>insta_gallery</b></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--...........closed insta gallery.............  -->
+    <!-- ...............footer.................-->
+    <div class="mt-5" style="width: 85%; margin-left: auto; margin-right: auto;">
+        <div class="row m-0 pb-5 g-0" style="border-bottom: 1px solid gray;">
+            <div class="col-sm-4">
+                <h1 class="m-0" style="font-family: 'Cookie';font-weight: 800; font-size: 300%;">Ashion</h1>
+                <p class="m-0 p-1 text-muted text-start">Lorem ipsum, dolor sit amet consectetur adipisicing elit. sed
+                    do eiusmod tempor incididunt cilisis.</p>
+                <div class="d-flex py-2">
+                    <img class="mx-1"
+                        src="/Web UI - 1 Ref IMG/Web UI - 1 Ref IMG/img/payment/payment-1.png" alt="">
+                    <img class="mx-1"
+                        src="/Web UI - 1 Ref IMG/Web UI - 1 Ref IMG/img/payment/payment-2.png" alt="">
+                    <img class="mx-1"
+                        src="/Web UI - 1 Ref IMG/Web UI - 1 Ref IMG/img/payment/payment-3.png" alt="">
+                    <img class="mx-1"
+                        src="/Web UI - 1 Ref IMG/Web UI - 1 Ref IMG/img/payment/payment-4.png" alt="">
+                    <img class="mx-1"
+                        src="/Web UI - 1 Ref IMG/Web UI - 1 Ref IMG/img/payment/payment-5.png" alt="">
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="row">
+                    <div class="col-6 py-3">
+                        <h6>QUICK LINKS</h6>
+                        <ul style="list-style: none;" class="p-0">
+                            <li><a class="text-secondary" style="text-decoration: none;" href="">About</a></li>
+                            <li><a class="text-secondary" style="text-decoration: none;" href="">Blog</a></li>
+                            <li><a class="text-secondary" style="text-decoration: none;" href="">Contact</a></li>
+                            <li><a class="text-secondary" style="text-decoration: none;" href="">FAQ</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 py-3">
+                        <h6>ACCOUNT</h6>
+                        <ul style="list-style: none;" class="p-0">
+                            <li><a class="text-secondary" style="text-decoration: none;" href="">My Account</a></li>
+                            <li><a class="text-secondary" style="text-decoration: none;" href="">Orders Tracking</a>
+                            </li>
+                            <li><a class="text-secondary" style="text-decoration: none;" href="">Checkout</a></li>
+                            <li><a class="text-secondary" style="text-decoration: none;" href="">Wishlist</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="py-3">
+                    <h6>NEWSLETTER</h6>
+                    <div class="input-group py-3">
+                        <input type="email" class="form-control px-4 py-3 rounded-5" style="position: relative;"
+                            placeholder="Email">
+                        <button class="btn btn-danger rounded-5"
+                            style="position: absolute; left: 49%; width: 50%; padding: 11px 4px 11px 4px; top: 24%;"
+                            type="button" id="button-addon2">SUBSCRIBE</button>
+                    </div>
+                    <div class="d-flex">
+                        <div class="m-2" id="social"><i class="fa-brands fa-facebook"></i></div>
+                        <div class="m-2" id="social"><i class="fa-brands fa-twitter"></i></div>
+                        <div class="m-2" id="social"><i class="fa-brands fa-youtube"></i></div>
+                        <div class="m-2" id="social"><i class="fa-brands fa-instagram"></i></div>
+                        <div class="m-2" id="social"><i class="fa-brands fa-pinterest"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="p-3">
+            <p class="text-center text-mutedx">Copyrigth @ 2023 All rights reserved | This is made with <i
+                    class="fa-sharp fa-solid fa-heart"></i> by Colorlib</p>
+        </div>
+    </div>
+    <!-- .............closed footer............. -->
+    <script src="/libraries/bootstrap-5.3.0-alpha1-dist/js/bootstrap.min.js"></script>
+    <script src="/libraries/jquerye/jquery-3.6.3.js"></script>
+    <script src="/js/script.js"></script>
+</body>
+
+</html>

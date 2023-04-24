@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://fonts.googleapis.com/css?family=Cookie' rel='stylesheet'>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/libraries/bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
+    <title>Shope</title>
+</head>
+
+<body>
+    <!-- navbar contain -->
+    <nav class=" navbar navbar-expand-md navbar-light bg-light fixed-top">
+        <div class="container-fluid ">
+            <div class=" col-4">
+                <img src="/Web UI - 1 Ref IMG/Web UI - 1 Ref IMG/img/logo.png"
+                    style="width: 100px; height: auto;" alt="" srcset="">
+            </div>
+            <button class="navbar-toggler d-lg-none " type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" id="naviteam" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" id="naviteam " href="shop.html">Shope</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="naviteam" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="d-flex justify-content-between px-3">
+                <span class="text-mute px-sm-3">Login / Registration</span>
+                <h4 class="p-0"> <i class="fa-solid fa-magnifying-glass px-1">
+                    </i>
+                    <i class="fa-regular fa-heart px-md-2 px-1">
+                        <h5 class="bold">2</h5>
+                    </i>
+                    <i class="fa-regular fa-clipboard px-md-2 px-1">
+                        <h5 class="bold">2</h5>
+                    </i>
+                </h4>
+            </div>
+        </div>
+    </nav>
+    <!-- ................................closed nav............................... -->
+    <!-- ...................bread crumb............. -->
+    <div class="mt-5 pt-5" style="width: 85%; margin-left: auto; margin-right: auto;">
+        <nav class="breadcrumb">
+            <a style="text-decoration: none;" class="breadcrumb-item text-dark" href="index.html"><i class= "m-1 fa-solid fa-house-chimney"></i>Home</a>
+            <a style="text-decoration: none;" class="breadcrumb-item text-dark active" href="shop.html"><i class="m-1 fa-solid fa-shop"></i>Shope</a>
+        </nav>
+    </div>
+    <!-- .................closed bread crumb........... -->
+    <!-- shop -->
+    <div class="my-3" style="width: 85%; margin-left: auto;margin-right: auto;">
+        <div class="row">
+            <div class="col-sm-3 p-2">
+                <h5 class="py-2 position-relative">CATEGORIES<img
+                        src="/Web UI - 1 Ref IMG/Web UI - 1 Ref IMG/line.png"
+                        style="position: absolute; top: -30%;" id="line" alt="" srcset=""></h5>
+                <div class="accordion" id="accordionExample">
+                    <!-- for women -->
+                    <div class="accordion-item" style="border: 0;">
+                        <h2 class="accordion-header" id="headingOne">
+                            <div class="accordion-button " style="color: black; background-color: white;" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                                aria-controls="collapseOne">
+                                Womens
+                            </div>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <ul style="list-style-type: circle;">
+                                    <li><a style="text-decoration: none;" class="text-muted" href="">Coats</a></li>
+                                    <li><a style="text-decoration: none;" class="text-muted" href="">Jackets</a></li>
+                                    <li><a style="text-decoration: none;" class="text-muted" href="">Dresses</a></li>
+                                    <li><a style="text-decoration: none;" class="text-muted" href="">Shirts</a></li>
+                                    <li><a style="text-decoration: none;" class="text-muted" href="">T-shirt</a></li>
+                                    <li><a style="text-decoration: none;" class="text-muted" href="">Jeans</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- for men -->
+                    <div class="accordion-item" style="border: 0;">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <div class="accordion-button " style="color: black; background-color: white;" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true"
+                                aria-controls="collapseTwo">
+                                Mens
+                            </div>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse " aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <ul style="list-style: circle;">
+                                    <li><a style="text-decoration: none;" class="text-muted" href="">Coats</a></li>
+                                    <li><a style="text-decoration: none;" class="text-muted" href="">Jackets</a></li>
+                                    <li><a style="text-decoration: none;" class="text-muted" href="">Dresses</a></li>
+                                    <li><a style="text-decoration: none;" class="text-muted" href="">Shirts</a></li>
+                                    <li><a style="text-decoration: none;" class="text-muted" href="">T-shirt</a></li>
+                                    <li><a style="text-decoration: none;" class="text-muted" href="">Jeans</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- for kids -->
+                    <div class="accordion-item" style="border: 0;">
+                        <h2 class="accordion-header" id="headingthree">
+                            <div class="accordion-button" style="color: black; background-color: white;" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#collapsethree" aria-expanded="true"
+                                aria-controls="collapsethree">
+                                Kids
+                            </div>
+                        </h2>
+                        <div id="collapsethree" class="accordion-collapse collapse " aria-labelledby="headingthree"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <ul style="list-style: circle;">
+                                    <li><a style="text-decoration: none;" class="text-muted" href="">Coats</a></li>
+                                    <li><a style="text-decoration: none;" class="text-muted" href="">Jackets</a></li>
+                                    <li><a style="text-decoration: none;" class="text-muted" href="">Dresses</a></li>
+                                    <li><a style="text-decoration: none;" class="text-muted" href="">Shirts</a></li>
+                                    <li><a style="text-decoration: none;" class="text-muted" href="">T-shirt</a></li>
+                                    <li><a style="text-decoration: none;" class="text-muted" href="">Jeans</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- for accesories -->
+                    <div class="accordion-item" style="border: 0;">
+                        <h2 class="accordion-header" id="headingfour">
+                            <div class="accordion-button" style="color: black; background-color: white;" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="true"
+                                aria-controls="collapsefour">
+                                Accessories
+                            </div>
+                        </h2>
+                        <div id="collapsefour" class="accordion-collapse collapse " aria-labelledby="headingfour"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <ul style="list-style-type: circle;">
+                                    <li><a style="text-decoration: none;" class="text-muted" href="">Coats</a></li>
+                                    <li><a style="text-decoration: none;" class="text-muted" href="">Jackets</a></li>
+                                    <li><a style="text-decoration: none;" class="text-muted" href="">Dresses</a></li>
+                                    <li><a style="text-decoration: none;" class="text-muted" href="">Shirts</a></li>
+                                    <li><a style="text-decoration: none;" class="text-muted" href="">T-shirt</a></li>
+                                    <li><a style="text-decoration: none;" class="text-muted" href="">Jeans</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- cosmetics -->
+                    <div class="accordion-item" style="border: 0;">
+                        <h2 class="accordion-header" id="headingOne">
+                            <div class="accordion-button" style="color: black; background-color: white;" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#collapsefive" aria-expanded="true"
+                                aria-controls="collapsefive">
+                                Cosmetics
+                            </div>
+                        </h2>
+                        <div id="collapsefive" class="accordion-collapse collapse " aria-labelledby="headingfive"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <ul style="list-style-type: circle;">
+                                    <li><a style="text-decoration: none;" class="text-muted" href="">Coats</a></li>
+                                    <li><a style="text-decoration: none;" class="text-muted" href="">Jackets</a></li>
+                                    <li><a style="text-decoration: none;" class="text-muted" href="">Dresses</a></li>
+                                    <li><a style="text-decoration: none;" class="text-muted" href="">Shirts</a></li>
+                                    <li><a style="text-decoration: none;" class="text-muted" href="">T-shirt</a></li>
+                                    <li><a style="text-decoration: none;" class="text-muted" href="">Jeans</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="py-1">
+                    <h5 class="mt-4 position-relative">SHOP BY PRICE<img
+                            src="/Web UI - 1 Ref IMG/Web UI - 1 Ref IMG/line.png"
+                            style="position: absolute; top: -90%;" id="line" alt="" srcset=""></h5>
+                    <input type="range" class="" style="width: 100%;" id="">
+                    <div class="d-flex justify-content-between my-3">
+                        <span>Price:<small class="text-muted">$33- $99</small></span>
+                        <button class="bg-light"
+                            style="border: 2px solid red; font-size: 12px; padding: 3px 1rem 3px 1rem;"><b>FILTER</b></button>
+                    </div>
+                </div>
+
+                <div class="mt-5">
+                    <h5 class=" position-relative">SHOP BY SIZE<img
+                            src="/Web UI - 1 Ref IMG/Web UI - 1 Ref IMG/line.png"
+                            style="position: absolute; top: -90%;" id="line" alt="" srcset=""></h5>
+                    <div class="py-3">
+                        <div class="px-0 list-group">
+                            <label class="px-0 list-group-item" style="border: 0;">
+                                <input class="form-check-input me-1" type="checkbox" value="">
+                                XXS
+                            </label>
+                            <label class="px-0 list-group-item" style="border: 0;">
+                                <input class="form-check-input me-1" type="checkbox" value="">
+                                XS
+                            </label>
+                            <label class="px-0 list-group-item" style="border: 0;">
+                                <input class="form-check-input me-1" type="checkbox" value="">
+                                XS-S
+                            </label>
+                            <label class="px-0 list-group-item" style="border: 0;">
+                                <input class="form-check-input me-1" type="checkbox" value="">
+                                S
+                            </label>
+                            <label class="px-0 list-group-item" style="border: 0;">
+                                <input class="form-check-input me-1" type="checkbox" value="">
+                                M
+                            </label>
+                            <label class="px-0 list-group-item" style="border: 0;">
+                                <input class="form-check-input me-1" type="checkbox" value="">
+                                M L
+                            </label>
+                            <label class="px-0 list-group-item" style="border: 0;">
+                                <input class="form-check-input me-1" type="checkbox" value="">
+                                M
+                            </label>
+                            <label class="px-0 list-group-item" style="border: 0;">
+                                <input class="form-check-input me-1" type="checkbox" value="">
+                                Xl
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-5">
+                    <h5 class="position-relative">SHOP BY COLOR<img
+                            src="/Web UI - 1 Ref IMG/Web UI - 1 Ref IMG/line.png"
+                            style="position: absolute; top: -90%;" id="line" alt="" srcset=""></h5>
+                    <div class="py-3">
+                        <div class="px-0 list-group">
+                            <label class="px-0 list-group-item" style="border: 0;">
+                                <input style=" background-color: black;" class="form-check-input me-1" type="checkbox"
+                                    value="">
+                                Black
+                            </label>
+                            <label class="px-0 list-group-item" style="border: 0;">
+                                <input style=" background-color: white;" class="form-check-input me-1" type="checkbox"
+                                    value="">
+                                White
+                            </label>
+                            <label class="px-0 list-group-item" style="border: 0;">
+                                <input style=" background-color: red;" class="form-check-input me-1" type="checkbox"
+                                    value="">
+                                Red
+                            </label>
+                            <label class="px-0 list-group-item" style="border: 0;">
+                                <input style=" background-color: gray;" class="form-check-input me-1" type="checkbox"
+                                    value="">
+                                Greys
+                            </label>
+                            <label class="px-0 list-group-item" style="border: 0;">
+                                <input style=" background-color: blue;" class="form-check-input me-1" type="checkbox"
+                                    value="">
+                                Blue
+                            </label>
+                            <label class="px-0 list-group-item" style="border: 0;">
+                                <input style=" background-color: skyblue;" class="form-check-input me-1" type="checkbox"
+                                    value="">
+                                skyblue
+                            </label>
+                            <label class="px-0 list-group-item" style="border: 0;">
+                                <input style=" background-color: green;" class="form-check-input me-1" type="checkbox"
+                                    value="">
+                                Greens
+                            </label>
+                            <label class="px-0 list-group-item" style="border: 0;">
+                                <input style=" background-color: yellow;" class="form-check-input me-1" type="checkbox"
+                                    value="">
+                                Yellows
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-sm-9">
+                <div class="row">
+                    <div class="box col-sm-4">
+                        <div class="position-relative" id="hov">
+                            <span style="position: absolute;" class="badge bg-success m-2">NEW</span>
+                            <img class="w-100"
+                                src="/Web UI - 1 Ref IMG/Web UI - 1 Ref IMG/img/shop/shop-1.jpg"
+                                alt="" srcset="">
+                            <div class="option">
+                                <div class="icons"><i class="fa-solid fa-plus"></i></div>
+                                <div class="icons"><i class="fa-regular fa-heart"></i></div>
+                                <div class="icons"><i class="fa-regular fa-clipboard"></i></div>
+                            </div>
+                        </div>
+                        <div class="d-flex pt-3 flex-column justify-content-center">
+                            <p class="text-secondary text-center p-0 m-0">Buttons tweed blazer</p>
+                            <div class="d-flex justify-content-center">
+                                <h6 style="font-size: x-small;"><i class="fa-solid fa-star"
+                                        style=" color: rgb(209, 209, 54);"></i></h6>
+                                <h6 style="font-size: x-small;"><i class="fa-solid fa-star"
+                                        style=" color: rgb(209, 209, 54);"></i></h6>
+                                <h6 style="font-size: x-small;"><i class="fa-solid fa-star"
+                                        style=" color: rgb(209, 209, 54);"></i></h6>
+                                <h6 style="font-size: x-small;"><i class="fa-solid fa-star"
+                                        style=" color: rgb(209, 209, 54);"></i></h6>
+                                <h6 style="font-size: x-small;"><i class="fa-solid fa-star"
+                                        style=" color: rgb(209, 209, 54);"></i></h6>
+                            </div>
+                            <b class="text-center p-2">$ 59.0</b>
+                        </div>
+                    </div>
+                    <div class="box col-sm-4">
+                        <div class="position-relative" id="hov2">
+                            <img class="w-100"
+                                src="/Web UI - 1 Ref IMG/Web UI - 1 Ref IMG/img/shop/shop-2.jpg"
+                                alt="" srcset="">
+                            <div class="option2">
+                                <div class="icons"><i class="fa-solid fa-plus"></i></div>
+                                <div class="icons"><i class="fa-regular fa-heart"></i></div>
+                                <div class="icons"><i class="fa-regular fa-clipboard"></i></div>
+                            </div>
+                        </div>
+                        <div class="d-flex pt-3 flex-column justify-content-center">
+                            <p class="text-secondary text-center p-0 m-0">Flowy striprd skirt</p>
+                            <div class="d-flex justify-content-center">
+                                <h6 style="font-size: x-small;"><i class="fa-solid fa-star"
+                                        style=" color: rgb(209, 209, 54);"></i></h6>
+                                <h6 style="font-size: x-small;"><i class="fa-solid fa-star"
+                                        style=" color: rgb(209, 209, 54);"></i></h6>
+                                <h6 style="font-size: x-small;"><i class="fa-solid fa-star"
+                                        style=" color: rgb(209, 209, 54);"></i></h6>
+                                <h6 style="font-size: x-small;"><i class="fa-solid fa-star"
+                                        style=" color: rgb(209, 209, 54);"></i></h6>
+                                <h6 style="font-size: x-small;"><i class="fa-solid fa-star"
+                                        style=" color: rgb(209, 209, 54);"></i></h6>
+                            </div>
+                            <b class="text-center p-2">$ 49.0</b>
+                        </div>
+                    </div>
+                    <div class="box col-sm-4">
+                        <div class="position-relative" id="hov3">
+                            <img class="w-100"
+                                src="/Web UI - 1 Ref IMG/Web UI - 1 Ref IMG/img/shop/shop-3.jpg"
+                                alt="" srcset="">
+                            <div class="option3">
+                                <div class="icons"><i class="fa-solid fa-plus"></i></div>
+                                <div class="icons"><i class="fa-regular fa-heart"></i></div>
+                                <div class="icons"><i class="fa-regular fa-clipboard"></i></div>
+                            </div>
+                        </div>
+                        <div class="d-flex pt-3 flex-column justify-content-center">
+                            <p class="text-secondary text-center p-0 m-0">Cotton T-Shirt </p>
+                            <div class="d-flex justify-content-center">
+                                <h6 style="font-size: x-small;"><i class="fa-solid fa-star"
+                                        style=" color: rgb(209, 209, 54);"></i></h6>
+                                <h6 style="font-size: x-small;"><i class="fa-solid fa-star"
+                                        style=" color: rgb(209, 209, 54);"></i></h6>
+                                <h6 style="font-size: x-small;"><i class="fa-solid fa-star"
+                                        style=" color: rgb(209, 209, 54);"></i></h6>
+                                <h6 style="font-size: x-small;"><i class="fa-solid fa-star"
+                                        style=" color: rgb(209, 209, 54);"></i></h6>
+                                <h6 style="font-size: x-small;"><i class="fa-solid fa-star"
+                                        style=" color: rgb(209, 209, 54);"></i></h6>
+                            </div>
+                            <b class="text-center p-2">$ 59.0</b>
+                        </div>
+                    </div>
+                    <div class="box col-sm-4">
+                        <div class="position-relative" id="hov4">
+                            <img class="w-100"
+                                src="/Web UI - 1 Ref IMG/Web UI - 1 Ref IMG/img/shop/shop-4.jpg"
+                                alt="" srcset="">
+                            <div class="option4">
+                                <div class="icons"><i class="fa-solid fa-plus"></i></div>
+                                <div class="icons"><i class="fa-regular fa-heart"></i></div>
+                                <div class="icons"><i class="fa-regular fa-clipboard"></i></div>
+                            </div>
+                        </div>
+                        <div class="d-flex pt-3 flex-column justify-content-center">
+                            <p class="text-secondary text-center p-0 m-0">Slim striped pocket shirt </p>
+                            <div class="d-flex justify-content-center">
+                                <h6 style="font-size: x-small;"><i class="fa-solid fa-star"
+                                        style=" color: rgb(209, 209, 54);"></i></h6>
+                                <h6 style="font-size: x-small;"><i class="fa-solid fa-star"
+                                        style=" color: rgb(209, 209, 54);"></i></h6>
+                                <h6 style="font-size: x-small;"><i class="fa-solid fa-star"
+                                        style=" color: rgb(209, 209, 54);"></i></h6>
+                                <h6 style="font-size: x-small;"><i class="fa-solid fa-star"
+                                        style=" color: rgb(209, 209, 54);"></i></h6>
+                                <h6 style="font-size: x-small;"><i class="fa-solid fa-star"
+                                        style=" color: rgb(209, 209, 54);"></i></h6>
+                            </div>
+                            <b class="text-center p-2">$ 59.0</b>
+                        </div>
+                    </div>
+                    <div class="box col-sm-4">
+                        <div class="position-relative" id="hov5">
+                            <span style="position: absolute;" class="badge bg-danger m-2">SALE</span>
+                            <img class="w-100"
+                                src="/Web UI - 1 Ref IMG/Web UI - 1 Ref IMG/img/shop/shop-5.jpg"
+                                alt="" srcset="">
+                            <div class="option5">
+                                <div class="icons"><i class="fa-solid fa-plus"></i></div>
+                                <div class="icons"><i class="fa-regular fa-heart"></i></div>
+                                <div class="icons"><i class="fa-regular fa-clipboard"></i></div>
+                            </div>
+                        </div>
+                        <div class="d-flex pt-3 flex-column justify-content-center">
+                            <p class="text-secondary text-center p-0 m-0">Fit micro corduray shirt</p>
+                            <div class="d-flex justify-content-center">
+                                <h6 style="font-size: x-small;"><i class="fa-solid fa-star"
+                                        style=" color: rgb(209, 209, 54);"></i></h6>
+                                <h6 style="font-size: x-small;"><i class="fa-solid fa-star"
+                                        style=" color: rgb(209, 209, 54);"></i></h6>
+                                <h6 style="font-size: x-small;"><i class="fa-solid fa-star"
+                                        style=" color: rgb(209, 209, 54);"></i></h6>
+                                <h6 style="font-size: x-small;"><i class="fa-solid fa-star"
+                                        style=" color: rgb(209, 209, 54);"></i></h6>
+                                <h6 style="font-size: x-small;"><i class="fa-solid fa-star"
+                                        style=" color: rgb(209, 209, 54);"></i></h6>
+                            </div>
+                            <b class="text-center p-2" style="color: red;">$ 49.0 <del class="text-secondary"
+                                    style="font-size: small;">$ 59.0</del></b>
+                        </div>
+                    </div>
+                    <div class="box col-sm-4">
+                        <div class="position-relative" id="hov6">
+                            <img class="w-100"
+                                src="/Web UI - 1 Ref IMG/Web UI - 1 Ref IMG/img/shop/shop-6.jpg"
+                                alt="" srcset="">
+                            <div class="option6">
+                                <div class="icons"><i class="fa-solid fa-plus"></i></div>
+                                <div class="icons"><i class="fa-regular fa-heart"></i></div>
+                                <div class="icons"><i class="fa-regular fa-clipboard"></i></div>
+                            </div>
+                        </div>
+                        <div class="d-flex pt-3 flex-column justify-content-center">
+                            <p class="text-secondary text-center p-0 m-0">Tropical Kimono</p>
+                            <div class="d-flex justify-content-center">
+                                <h6 style="font-size: x-small;"><i class="fa-solid fa-star"
+                                        style=" color: rgb(209, 209, 54);"></i></h6>
+                                <h6 style="font-size: x-small;"><i class="fa-solid fa-star"
+                                        style=" color: rgb(209, 209, 54);"></i></h6>
+                                <h6 style="font-size: x-small;"><i class="fa-solid fa-star"
+                                        style=" color: rgb(209, 209, 54);"></i></h6>
+                                <h6 style="font-size: x-small;"><i class="fa-solid fa-star"
+                                        style=" color: rgb(209, 209, 54);"></i></h6>
+                                <h6 style="font-size: x-small;"><i class="fa-solid fa-star"
+                                        style=" color: rgb(209, 209, 54);"></i></h6>
+                            </div>
+                            <b class="text-center p-2">$ 59.0</b>
+                        </div>
+                    </div>
+                    <div class="box col-sm-4">
+                        <div class="position-relative" id="hov7">
+                            <img class="w-100"
+                                src="/Web UI - 1 Ref IMG/Web UI - 1 Ref IMG/img/shop/shop-7.jpg"
+                                alt="" srcset="">
+                            <div class="option7">
+                                <div class="icons"><i class="fa-solid fa-plus"></i></div>
+                                <div class="icons"><i class="fa-regular fa-heart"></i></div>
+                                <div class="icons"><i class="fa-regular fa-clipboard"></i></div>
+                            </div>
+                        </div>
+                        <div class="d-flex pt-3 flex-column justify-content-center">
+                            <p class="text-secondary text-center p-0 m-0">Constasting sunglasses</p>
+                            <div class="d-flex justify-content-center">
+                                <h6 style="font-size: x-small;"><i class="fa-solid fa-star"
+                                        style=" color: rgb(209, 209, 54);"></i></h6>
+                                <h6 style="font-size: x-small;"><i class="fa-solid fa-star"
+                                        style=" color: rgb(209, 209, 54);"></i></h6>
+                                <h6 style="font-size: x-small;"><i class="fa-solid fa-star"
+                                        style=" color: rgb(209, 209, 54);"></i></h6>
+                                <h6 style="font-size: x-small;"><i class="fa-solid fa-star"
+                                        style=" color: rgb(209, 209, 54);"></i></h6>
+                                <h6 style="font-size: x-small;"><i class="fa-solid fa-star"
+                                        style=" color: rgb(209, 209, 54);"></i></h6>
+                            </div>
+                            <b class="text-center p-2">$ 59.0</b>
+                        </div>
+                    </div>
+                    <div class="box col-sm-4">
+                        <div class="position-relative" id="hov8">
+                            <span style="position: absolute;" class="badge bg-primary m-2">OUT OF STOCK</span>
+                            <img class="w-100"
+                                src="/Web UI - 1 Ref IMG/Web UI - 1 Ref IMG/img/shop/shop-8.jpg"
+                                alt="" srcset="">
+                            <div class="option8">
+                                <div class="icons"><i class="fa-solid fa-plus"></i></div>
+                                <div class="icons"><i class="fa-regular fa-heart"></i></div>
+                                <div class="icons"><i class="fa-regular fa-clipboard"></i></div>
+                            </div>
+                        </div>
+                        <div class="d-flex pt-3 flex-column justify-content-center">
+                            <p class="text-secondary text-center p-0 m-0">Water resistant backpack</p>
+                            <div class="d-flex justify-content-center">
+                                <h6 style="font-size: x-small;"><i class="fa-solid fa-star"
+                                        style=" color: rgb(209, 209, 54);"></i></h6>
+                                <h6 style="font-size: x-small;"><i class="fa-solid fa-star"
+                                        style=" color: rgb(209, 209, 54);"></i></h6>
+                                <h6 style="font-size: x-small;"><i class="fa-solid fa-star"
+                                        style=" color: rgb(209, 209, 54);"></i></h6>
+                                <h6 style="font-size: x-small;"><i class="fa-solid fa-star"
+                                        style=" color: rgb(209, 209, 54);"></i></h6>
+                                <h6 style="font-size: x-small;"><i class="fa-solid fa-star"
+                                        style=" color: rgb(209, 209, 54);"></i></h6>
+                            </div>
+                            <b class="text-center p-2">$ 59.0</b>
+                        </div>
+                    </div>
+                    <div class="box col-sm-4">
+                        <div class="position-relative" id="hov13">
+                            <span style="position: absolute;" class="badge bg-danger m-2">SALE</span>
+                            <img class="w-100"
+                                src="/Web UI - 1 Ref IMG/Web UI - 1 Ref IMG/img/shop/shop-9.jpg"
+                                alt="" srcset="">
+                            <div class="option13">
+                                <div class="icons"><i class="fa-solid fa-plus"></i></div>
+                                <div class="icons"><i class="fa-regular fa-heart"></i></div>
+                                <div class="icons"><i class="fa-regular fa-clipboard"></i></div>
+                            </div>
+                        </div>
+                        <div class="d-flex pt-3 flex-column justify-content-center">
+                            <p class="text-secondary text-center p-0 m-0">Water resistant backpack</p>
+                            <div class="d-flex justify-content-center">
+                                <h6 style="font-size: x-small;"><i class="fa-solid fa-star"
+                                        style=" color: rgb(209, 209, 54);"></i></h6>
+                                <h6 style="font-size: x-small;"><i class="fa-solid fa-star"
+                                        style=" color: rgb(209, 209, 54);"></i></h6>
+                                <h6 style="font-size: x-small;"><i class="fa-solid fa-star"
+                                        style=" color: rgb(209, 209, 54);"></i></h6>
+                                <h6 style="font-size: x-small;"><i class="fa-solid fa-star"
+                                        style=" color: rgb(209, 209, 54);"></i></h6>
+                                <h6 style="font-size: x-small;"><i class="fa-solid fa-star"
+                                        style=" color: rgb(209, 209, 54);"></i></h6>
+                            </div>
+                            <b class="text-center p-2" style="color: red;">$ 49.0 <del class="text-secondary"
+                                    style="font-size: small;">$ 59.0</del></b>
+                        </div>
+                    </div>
+                </div>
+                <div class="justify-content-center d-flex">
+                    <nav aria-label="Page navigation">
+                        <ul class="pagination    ">
+                            <li class="m-1 page-item">
+                                <a class="page-link  text-dark rounded-5" href="#" aria-label="Previous">
+                                    <i class="fa-solid fa-forward"></i>
+                                </a>
+                            </li>
+                            <li class="m-1 page-item "><a class="page-link  text-dark rounded-5" href="#">1</a></li>
+                            <li class="m-1 page-item"><a class="page-link  text-dark rounded-5" href="#">2</a></li>
+                            <li class="m-1 page-item"><a class="page-link  text-dark rounded-5" href="#">3</a></li>
+                            <li class="m-1 page-item">
+                                <a class="page-link  text-dark rounded-5" href="#" aria-label="Next">
+                                    <i class="fa-solid fa-backward"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- closed shop -->
+    <!-- .............insta gallery............... -->
+    <div class="container-fluid my-5 p-0">
+        <div class="row g-0 m-0 p-0">
+            <div class="col-lg-2 col-md-4 col-6 action1" style="position: relative;">
+                <img src="/Web UI - 1 Ref IMG/Web UI - 1 Ref IMG/img/instagram/insta-1.jpg"
+                    class="w-100" alt="insta-gallory" srcset="">
+                <div class="design1 position-absolute flex-column justify-content-center"
+                    style="background-color: white; padding: 10% 0 10% 0; top: 1px; height: 100%; width: 100%; display: none; opacity: .8;">
+                    <h2 class="p-3 text-center"><i class="fa-brands fa-square-instagram"></i></h2>
+                    <a href="" style="text-align: center; text-decoration: none; "><b>insta_gallery</b></a>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-6 action2" style="position: relative;">
+                <img src="/Web UI - 1 Ref IMG/Web UI - 1 Ref IMG/img/instagram/insta-2.jpg"
+                    class="w-100" alt="insta-gallory" srcset="">
+                <div class="design2 position-absolute flex-column justify-content-center"
+                    style="background-color: white; padding: 10% 0 10% 0; top: 1px; height: 100%; width: 100%; display: none; opacity: .8;">
+                    <h2 class="p-3 text-center"><i class="fa-brands fa-square-instagram"></i></h2>
+                    <a href="" style="text-align: center; text-decoration: none; "><b>insta_gallery</b></a>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-6 action3" style="position: relative;">
+                <img src="/Web UI - 1 Ref IMG/Web UI - 1 Ref IMG/img/instagram/insta-3.jpg"
+                    class="w-100" alt="insta-gallory" srcset="">
+                <div class="design3 position-absolute flex-column justify-content-center"
+                    style="background-color: white; padding: 10% 0 10% 0; top: 1px; height: 100%; width: 100%; display: none; opacity: .8;">
+                    <h2 class="p-3 text-center"><i class="fa-brands fa-square-instagram"></i></h2>
+                    <a href="" style="text-align: center; text-decoration: none; "><b>insta_gallery</b></a>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-6 action4" style="position: relative;">
+                <img src="/Web UI - 1 Ref IMG/Web UI - 1 Ref IMG/img/instagram/insta-4.jpg"
+                    class="w-100" alt="insta-gallory" srcset="">
+                <div class="design4 position-absolute flex-column justify-content-center"
+                    style="background-color: white; padding: 10% 0 10% 0; top: 1px; height: 100%; width: 100%; display: none; opacity: .8;">
+                    <h2 class="p-3 text-center"><i class="fa-brands fa-square-instagram"></i></h2>
+                    <a href="" style="text-align: center; text-decoration: none; "><b>insta_gallery</b></a>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-6 action5" style="position: relative;">
+                <img src="/Web UI - 1 Ref IMG/Web UI - 1 Ref IMG/img/instagram/insta-5.jpg"
+                    class="w-100" alt="insta-gallory" srcset="">
+                <div class="design5 position-absolute flex-column justify-content-center"
+                    style="background-color: white; padding: 10% 0 10% 0; top: 1px; height: 100%; width: 100%; display: none; opacity: .8;">
+                    <h2 class="p-3 text-center"><i class="fa-brands fa-square-instagram"></i></h2>
+                    <a href="" style="text-align: center; text-decoration: none; "><b>insta_gallery</b></a>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-6 action6" style="position: relative;">
+                <img src="/Web UI - 1 Ref IMG/Web UI - 1 Ref IMG/img/instagram/insta-6.jpg"
+                    class="w-100" alt="insta-gallory" srcset="">
+                <div class="design6 position-absolute flex-column justify-content-center"
+                    style="background-color: white; padding: 10% 0 10% 0; top: 1px; height: 100%; width: 100%; display: none; opacity: .8;">
+                    <h2 class="p-3 text-center"><i class="fa-brands fa-square-instagram"></i></h2>
+                    <a href="" style="text-align: center; text-decoration: none; "><b>insta_gallery</b></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--...........closed insta gallery.............  -->
+    <!-- ...............footer.................-->
+    <div class="mt-5" style="width: 85%; margin-left: auto; margin-right: auto;">
+        <div class="row m-0 pb-5 g-0" style="border-bottom: 1px solid gray;">
+            <div class="col-sm-4">
+                <h1 class="m-0" style="font-family: 'Cookie';font-weight: 800; font-size: 300%;">Ashion</h1>
+                <p class="m-0 p-1 text-muted text-start">Lorem ipsum, dolor sit amet consectetur adipisicing elit. sed
+                    do eiusmod tempor incididunt cilisis.</p>
+                <div class="d-flex py-2">
+                    <img class="mx-1"
+                        src="/Web UI - 1 Ref IMG/Web UI - 1 Ref IMG/img/payment/payment-1.png" alt="">
+                    <img class="mx-1"
+                        src="/Web UI - 1 Ref IMG/Web UI - 1 Ref IMG/img/payment/payment-2.png" alt="">
+                    <img class="mx-1"
+                        src="/Web UI - 1 Ref IMG/Web UI - 1 Ref IMG/img/payment/payment-3.png" alt="">
+                    <img class="mx-1"
+                        src="/Web UI - 1 Ref IMG/Web UI - 1 Ref IMG/img/payment/payment-4.png" alt="">
+                    <img class="mx-1"
+                        src="/Web UI - 1 Ref IMG/Web UI - 1 Ref IMG/img/payment/payment-5.png" alt="">
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="row">
+                    <div class="col-6 py-3">
+                        <h6>QUICK LINKS</h6>
+                        <ul style="list-style: none;" class="p-0">
+                            <li><a class="text-secondary" style="text-decoration: none;" href="">About</a></li>
+                            <li><a class="text-secondary" style="text-decoration: none;" href="">Blog</a></li>
+                            <li><a class="text-secondary" style="text-decoration: none;" href="">Contact</a></li>
+                            <li><a class="text-secondary" style="text-decoration: none;" href="">FAQ</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 py-3">
+                        <h6>ACCOUNT</h6>
+                        <ul style="list-style: none;" class="p-0">
+                            <li><a class="text-secondary" style="text-decoration: none;" href="">My Account</a></li>
+                            <li><a class="text-secondary" style="text-decoration: none;" href="">Orders Tracking</a>
+                            </li>
+                            <li><a class="text-secondary" style="text-decoration: none;" href="">Checkout</a></li>
+                            <li><a class="text-secondary" style="text-decoration: none;" href="">Wishlist</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="py-3">
+                    <h6>NEWSLETTER</h6>
+                    <div class="input-group py-3">
+                        <input type="email" class="form-control px-4 py-3 rounded-5" style="position: relative;"
+                            placeholder="Email">
+                        <button class="btn btn-danger rounded-5"
+                            style="position: absolute; left: 49%; width: 50%; padding: 11px 4px 11px 4px; top: 24%;"
+                            type="button" id="button-addon2">SUBSCRIBE</button>
+                    </div>
+                    <div class="d-flex">
+                        <div class="m-2" id="social"><i class="fa-brands fa-facebook"></i></div>
+                        <div class="m-2" id="social"><i class="fa-brands fa-twitter"></i></div>
+                        <div class="m-2" id="social"><i class="fa-brands fa-youtube"></i></div>
+                        <div class="m-2" id="social"><i class="fa-brands fa-instagram"></i></div>
+                        <div class="m-2" id="social"><i class="fa-brands fa-pinterest"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="p-3">
+            <p class="text-center text-mutedx">Copyrigth @ 2023 All rights reserved | This is made with <i
+                    class="fa-sharp fa-solid fa-heart"></i> by Colorlib</p>
+        </div>
+    </div>
+    <!-- .............closed footer............. -->
+    <script src="/libraries/bootstrap-5.3.0-alpha1-dist/js/bootstrap.min.js"></script>
+    <script src="/libraries/jquerye/jquery-3.6.3.js"></script>
+    <script src="/js/script.js"></script>
+</body>
+
+</html>

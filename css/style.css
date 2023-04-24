@@ -1,0 +1,92 @@
+#naviteam{
+    font-weight: 500;
+}
+.nav-item:hover{
+    border-bottom: 2px solid red;
+    transition: ease-in-out 0.5s;
+}
+.bold{
+    font-size: 12px;
+    height: 18px;
+    width: 18px;
+    text-align: center;
+    margin-top: -30px;
+    margin-left: 15px;
+    background-color: rgba(0, 0, 0, 0.813);
+    color: white;
+    padding: 4px;
+    position: absolute;
+    border-radius: 50px;
+}
+.header1{
+    font-family: 'Cookie';
+}
+.shop{
+    font-size: 12px;
+    color: black;
+    width: max-content;
+    font-weight: 500;
+    text-decoration: none;
+}
+.shop:hover{
+    border-bottom: 2px solid red; 
+}
+.box{
+    padding: 1rem;
+}
+
+.option,.option2,.option3,.option4,.option5,.option6,.option7,.option8,.option13{
+    display: none;
+    position: absolute;
+    top: 70%;
+    left: 20%;  
+}
+.icons{
+    padding-top: 12px;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 2px;
+    text-align: center;
+}
+.icons:hover{
+    background-color: red;
+    color: white;
+}
+@media screen and (max-width:1000px) and (min-width:750px) {
+    .option{
+        left: 0%;
+    }
+    .icons{
+        width: 48px
+    }
+    #zip{
+        padding: 0%;
+        font-size:12px;
+    }
+}
+
+#line,#line1,#line2{
+    width: 100px;
+    height: auto;
+    left: -5%;
+    top: -10%;
+    transition: ease-in 0.5s;
+    position: absolute;
+}
+
+#couner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#social{
+    background-color: rgba(128, 128, 128, 0.399);
+    width: 40px; height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
